@@ -1,0 +1,4 @@
+# file: /Users/pavelblack/Downloads/rgparser/src/userbot/userbot_pool_manager.py
+# hypothesis_version: 6.151.10
+
+[1.0, 300, 'ERROR', 'INFO', 'UserbotPoolManager', 'WARNING', 'active', 'banned', 'duration', 'error', 'inactive', 'notification', 'reason', 'task_count', 'unavailable', 'userbot_id']
