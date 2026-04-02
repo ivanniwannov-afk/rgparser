@@ -1,0 +1,24 @@
+# Telegram API
+pyrogram==2.0.106
+python-telegram-bot==20.7
+
+# Database
+aiosqlite==0.19.0
+
+# LLM APIs
+anthropic==0.18.1
+openai==1.12.0
+
+# Configuration
+python-dotenv==1.0.1
+
+# Web Dashboard
+streamlit==1.31.1
+
+# Utilities
+emoji==2.10.1
+
+# Testing
+hypothesis==6.98.3
+pytest==8.0.0
+pytest-asyncio==0.23.5
