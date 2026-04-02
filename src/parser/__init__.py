@@ -1,1 +1,0 @@
-"""Message parser module."""
