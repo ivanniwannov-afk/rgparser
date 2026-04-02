@@ -1,0 +1,4 @@
+# file: /Users/pavelblack/Downloads/rgparser/src/logging/activity_logger.py
+# hypothesis_version: 6.151.10
+
+[100, 'DeliveryBot', 'ERROR', 'INFO', 'IngestionModule', 'LLMVerifier', 'WARNING', 'chat_link', 'chat_title', 'duration_ms', 'error_message', 'exception_str', 'exception_type', 'message_preview', 'qualified', 'sender_id', 'success', 'userbot_id']

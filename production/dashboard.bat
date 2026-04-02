@@ -7,44 +7,19 @@ echo Dashboard Launcher
 echo ========================================
 echo.
 
-REM Try to find Python
-set PYTHON_CMD=
-
-REM Try python command
+REM Check if Python is installed
 python --version >nul 2>&1
-if not errorlevel 1 (
-    set PYTHON_CMD=python
-    goto :found_python
+if errorlevel 1 (
+    echo ERROR: Python is not installed or not in PATH
+    echo Please install Python 3.8+ from https://www.python.org/
+    pause
+    exit /b 1
 )
-
-REM Try py command (Microsoft Store version)
-py --version >nul 2>&1
-if not errorlevel 1 (
-    set PYTHON_CMD=py
-    goto :found_python
-)
-
-REM Try python3 command
-python3 --version >nul 2>&1
-if not errorlevel 1 (
-    set PYTHON_CMD=python3
-    goto :found_python
-)
-
-echo ERROR: Python is not installed or not in PATH
-echo Please install Python 3.8+ from https://www.python.org/
-echo Or use Microsoft Store to install Python
-pause
-exit /b 1
-
-:found_python
-echo Found Python: %PYTHON_CMD%
-echo.
 
 REM Check if virtual environment exists
 if not exist "venv\" (
     echo Creating virtual environment...
-    %PYTHON_CMD% -m venv venv
+    python -m venv venv
     if errorlevel 1 (
         echo ERROR: Failed to create virtual environment
         pause
