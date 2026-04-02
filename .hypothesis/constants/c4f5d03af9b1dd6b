@@ -1,0 +1,4 @@
+# file: /Users/pavelblack/Downloads/rgparser/config.py
+# hypothesis_version: 6.151.10
+
+[3600, 'claude', 'config.json', 'daily_join_limit', 'join_delay_max', 'join_delay_min', 'llm_max_concurrent', 'llm_max_retries', 'llm_provider', 'llm_timeout', 'max_spam_examples', 'openai', 'openrouter', 'r', 'trigger_words', 'utf-8']
