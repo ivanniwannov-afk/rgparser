@@ -1,0 +1,12 @@
+# Session Files Directory
+
+Place your Telegram userbot .session files here.
+
+Example:
+- userbot1.session
+- userbot2.session
+- userbot3.session
+
+The system will automatically load all .session files from this directory on startup.
+
+To create session files, run: get_code.bat
